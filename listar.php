@@ -39,7 +39,7 @@
             echo "<tr>";
             echo "<td> " . $linha['id']      . "</td>";
             echo "<td> " . $linha['nome']    . "</td>"; 
-            echo "<td> " . $linha['preco']    . "</td>";
+            echo "<td> R$ " . number_format($linha['preco'], 2, ',', '.') . "</td>";
             echo "<td> " . $linha['quantidade']   . "</td>";
             echo "</tr>";
 
